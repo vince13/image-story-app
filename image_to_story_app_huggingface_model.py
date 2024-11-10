@@ -10,10 +10,9 @@ import requests
 from transformers import pipeline
 from PIL import Image
 
+from dotenv import load_dotenv
+load_dotenv()
 
-# Configuration
-# HUGGINGFACE_API_TOKEN = os.getenv('HUGGINGFACE_API_TOKEN', "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")
-# os.environ["HUGGINGFACEHUB_API_TOKEN"] = HUGGINGFACE_API_TOKEN
 
 HUGGINGFACE_API_TOKEN = os.getenv('HUGGINGFACE_API_TOKEN')
 if not HUGGINGFACE_API_TOKEN:

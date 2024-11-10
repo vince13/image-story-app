@@ -1,4 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
 .env
+temp_*
+generated_*
+*.flac
 .DS_Store
 venv/
 .venv/
